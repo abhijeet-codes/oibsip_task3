@@ -1,0 +1,122 @@
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    min-height: 100%;
+    min-width: 100%;
+    display: flex;
+    gap:100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    height: 80px;
+    width: 100vw;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+.hero {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
+    padding: 20px;
+    min-width: 800px;
+    min-height:400px;
+}
+
+.content1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.content1 h1 {
+    color: #359438;
+    margin: 0;
+}
+
+.content1 h2 {
+    color: #1e1e1e;
+    font-weight: 300;
+    margin: 5px 0 20px;
+    font-size: 18px;
+}
+
+.converter-container {
+    display: flex;
+    justify-content: center;
+}
+
+.temp-converter {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.temp-section {
+    display: flex;
+    width: 100%;
+}
+
+.input-section, .output-section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.temp-converter label {
+    margin-bottom: 5px;
+    color: #4CAF50;
+    display: block;
+}
+
+.temp-converter input[type="text"] {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 10px;
+    display: none;
+}
+
+.radio-group label {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+.radio-group input[type="radio"] + label {
+    margin-bottom: 5px;
+    padding: 5px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.radio-group input[type="radio"]:checked + label {
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+}

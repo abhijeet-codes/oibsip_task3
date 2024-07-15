@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TempConvert</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Temperature Converter</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="content1">
+                <h1>Temperature Unit Converter</h1>
+                <h2>Convert from one temperature unit to another temperature unit</h2>
+            </div>
+            <div class="converter-container">
+                <form class="temp-converter">
+                    <div class="temp-section">
+                        <div class="input-section">
+                            <label for="inptemp">Input Temperature Value</label>
+                            <input type="text" name="inptemp" id="inptemp" value="" maxlength="25" />
+                            <label>Input Temperature Unit</label>
+                            <div class="radio-group">
+                                <input type="radio" name="inptempunit" id="input-celsius" value="celsius" checked />
+                                <label for="input-celsius">Celsius [°C]</label>
+
+                                <input type="radio" name="inptempunit" id="input-fahrenheit" value="fahrenheit" />
+                                <label for="input-fahrenheit">Fahrenheit [°F]</label>
+
+                                <input type="radio" name="inptempunit" id="input-kelvin" value="kelvin" />
+                                <label for="input-kelvin">Kelvin [K]</label>
+                            </div>
+                        </div>
+                        <div class="output-section">
+                            <label for="outtemp">Output Temperature Value</label>
+                            <input type="text" name="outtemp" id="outtemp" readonly />
+                            <label for="outtempunit">Output Temperature Unit</label>
+                            <div class="radio-group">
+                                <input type="radio" name="outtempunit" id="output-celsius" value="celsius" checked />
+                                <label for="output-celsius">Celsius [°C]</label>
+
+                                <input type="radio" name="outtempunit" id="output-fahrenheit" value="fahrenheit" />
+                                <label for="output-fahrenheit">Fahrenheit [°F]</label>
+                                
+                                <input type="radio" name="outtempunit" id="output-kelvin" value="kelvin" />
+                                <label for="output-kelvin">Kelvin [K]</label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
