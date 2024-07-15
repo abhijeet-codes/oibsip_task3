@@ -30,7 +30,7 @@ The application uses JavaScript to handle the conversion logic based on user inp
 
 ## License
 
-Owner - Abhijeet Bhattacharjee (https://github.com/abhijeet-codes  
+Owner - Abhijeet Bhattacharjee (https://github.com/abhijeet-codes)  
 
 
 ## Future Enhancements
@@ -39,6 +39,8 @@ Owner - Abhijeet Bhattacharjee (https://github.com/abhijeet-codes
 - Improve user experience with responsiveness. 
 - Enhance accessibility features for better usability.
 
+
 ## Contact
 
-For questions or feedback, please contact [Abhijeet Bhattacharjee](mailto:abhijeetlogin22@gmail.com).
+For questions or feedback, please contact  
+Email - abhijeetlogin22@gmail.com
